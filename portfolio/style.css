@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+html, body, section{
+    height: 100%;
+}
+header{
+    width: 100%;
+    position: fixed;
+}
+nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    width: 20%;
+}
+a p{
+    color:white;
+
+}
+#section-home{
+    background-image: url(./img/117062.jpg);
+    background-size: cover;
+}
+.div-h1{
+    padding-top:22%;
+    text-align: center;
+    justify-content: center;
+}
+h1{
+    color: white;
+    font-size: 70px;
+    font-family: 'Ubuntu', sans-serif;
+}
+button{
+    width: 15%;
+    height: 25%;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    font-size: 25px;
+    color: white;
+}
+button:hover {
+	background: rgba(0,0,0,0);
+	color: gray;
+	box-shadow: inset 0 0 0 100px white;
+}
+a:hover{
+    background: rgba(0,0,0,0);
+	color: gray;
+    box-shadow: inset 0 0 0 100px gainsboro;
+}
+/*1*/
+#section-about{
+    height: 100%;
+}
+/*2*/
+.introduction{
+    height: 100%;
+    width: 100%;
+}
+.h2{
+    text-align: center;
+    align-items: center;
+    margin: 10% 10% 0 10%;
+}
+h2{
+    margin-bottom: 3%;
+}
+hr{
+    margin: auto;
+    width: 70%;
+    color: gray;
+    margin-bottom: 2%;
+}
+.h2 p{
+    font-size: 22px;
+    color: gray;
+}
+.icon{
+    margin-top: 7%;
+}
+.icon1{
+    width: 200px;
+    height: 200px;
+    margin-right: 20%;
+}
+.icon-text{
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+.icon-text p {
+    color: gray;
+    font-size: 20px;
+    width: 40%;
+    margin: auto;
+}
+/*3*/
+footer{
+    height: 20%;
+    background-color: grey;
+}
+.soc-icon{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.icon-watssap{
+    width: 30px;
+    height: 30px;
+    margin-top: 3%;
+    margin-left: 2%;
+}

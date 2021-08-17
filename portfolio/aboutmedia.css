@@ -1,0 +1,29 @@
+@media(max-width:480px){
+    .section-h1{
+        height: 70%;
+    }
+    .section-photo{
+        height: 90%;
+    }
+    a{
+        font-size: 10px;
+    }
+    h1{
+        font-size: 30px;
+        margin-top: 50%;
+    }
+    button{
+        width: 20%;
+        height: 10%;
+
+    }
+    h2{
+        font-size: 20px;
+    }
+    .photo-p{
+        font-size: 14px;
+    }
+    .p-photo{
+        font-size: 14px;
+    }
+}

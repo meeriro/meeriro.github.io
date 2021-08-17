@@ -1,0 +1,40 @@
+@media(max-width:480px){
+    #section-home{
+        height: 70%;
+    }
+    #section-about{
+        height: 70%;
+    }
+    footer{
+        height: 30%;
+    }
+    a{
+        font-size: 10px;
+    }
+    h1{
+        font-size: 30px;
+        margin-top: 50%;
+    }
+    button{
+        width: 20%;
+        height: 10%;
+
+    }
+    h2{
+        font-size: 20px;
+    }
+    .h2 p{
+        font-size: 14px;
+    }
+    .icon-text p{
+        font-size: 14px;
+    }
+    .icon1{
+        width:30%;
+        height: 30%;
+    }
+    .icon2{
+        width: 20%;
+        height: 20%;
+    }
+}

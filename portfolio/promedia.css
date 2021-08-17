@@ -1,0 +1,24 @@
+@media(max-width:480px){
+a{
+    font-size: 10px;
+}
+h1{
+    font-size: 30px;
+    margin-top: 50%;
+}
+button{
+    width: 20%;
+    height: 10%;
+
+}
+section{
+    height: 70%;
+}
+.img-skr{
+    width: 25%;
+    height: 15%;
+}
+.section-skr{
+    height: 50%;
+}
+}
