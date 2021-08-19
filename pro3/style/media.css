@@ -1,0 +1,76 @@
+@media(max-width :480px){
+    .header-text{
+        margin-left:10px;
+        width: 80%;
+    }
+    .t-third{
+        font-size: 10px;
+        width: 300px;
+    }
+    h1{
+        font-size: 15px;
+        justify-content: center;
+    }
+    .t-first{
+        font-size: 20px;
+    }
+    .t-second{
+        font-size: 40px;
+    }
+    /*
+    .gallery text{
+        display: block;
+    }
+    main section{
+        width: 100%;
+    }
+    .text1{
+        padding-top:25px ;
+        font-size: 22px;
+    }    
+    .gallery img{
+        display: block;
+        flex-wrap: wrap;
+        
+    }
+    .gallery img div{
+        width: 100%;
+        padding-bottom: 200%;
+    }
+    h2{
+        font-size: 40px;
+        margin-left: 0;
+        text-align: center;
+    }
+    */
+    .gallery-text{
+        display: block;
+    }
+    main section{
+        width: 100%;
+        display: block;
+        margin-left:2%;
+    }
+    h2{
+        padding-left: 36%;
+    }
+    .text2{
+        font-size:120%;
+    }
+    .f1{
+        width: 95%;
+        margin-bottom: 10px;
+    }
+    .f2{
+        width: 95%;
+        margin-bottom: 10px;
+    
+    }
+    .f3{
+        width: 95% ;
+        margin-bottom: 10px;
+    }
+}
+    /*третья часть*/
+ 
+
