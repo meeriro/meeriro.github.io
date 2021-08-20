@@ -66,13 +66,16 @@ h1{
 }
 .section-skr{
     background-color: #DCDCDC;
-    height: 140%;
+    height: 160%;
 }
 .main-skr{
     height: 90%;
     width: 90%;
     padding: 5%;
     margin: auto;
+}
+.project{
+    height: 50%;
 }
 .img-skr{
     flex-wrap: wrap;
@@ -120,6 +123,27 @@ footer{
 .language{
     margin-left: 5%;
     font-size: 120%;
+}
+.my-skill-bar2{
+    width: 90%;
+    height: 5px;
+    background-color:violet;
+}
+
+.my-skill-bar3{
+    width: 100%;
+    height: 5px;
+    background-color:orangered;
+}
+.my-skill-bar4{
+    width: 80%;
+    height: 5px;
+    background-color:gold;
+}
+.my-skill-bar5{
+    width: 100%;
+    height: 5px;
+    background-color: forestgreen;
 }
 
 
