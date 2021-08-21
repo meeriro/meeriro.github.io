@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+html, body, section{
+    height: 100%;
+
+}
+header{
+    width: 100%;
+    position: fixed;
+    background-color: rgb(255, 250, 244);
+}
+nav{
+    height: 100px;
+    box-shadow: 1px 1px 1px 1px rgb(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;/* убирает подчеркивание у ссылок*/
+    font-size: 20px;
+    font-family: 'Lakki Reddy', cursive;
+    color: black;
+}
+#CadetBlue{
+    background-color: CadetBlue;
+}
+#Coral{
+    background-color: Coral;
+}
+#Chocolate{
+    background-color: Chocolate;
+}
+#DarkGray{
+    background-color: DarkGray;
+}
+#img{
+    background-image: url(./img/thumb_1024x663_oia-greece.jpg);
+    background-size: cover;
+}
+#DarkOliveGreen{
+    background-color: DarkOliveGreen;
+}
