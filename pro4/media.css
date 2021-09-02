@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media(max-width:480px){
     img{
         width: 300px;
@@ -21,4 +22,29 @@
     .more-info{
         font-size: 15px;
     }
+=======
+@media(max-width:480px){
+    img{
+        width: 300px;
+        height: 230px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h2{
+       font-size:  22px;
+    }
+    p{
+        font-size:15px ;
+    }
+    ul{
+        font-size: 15px;
+    }
+    .quote{
+        font-size: 15px;
+    }
+    .more-info{
+        font-size: 15px;
+    }
+>>>>>>> 4b00cd3 (lesson28)
 }

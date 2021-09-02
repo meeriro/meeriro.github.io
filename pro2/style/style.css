@@ -1,0 +1,86 @@
+
+ body{
+     width: 1000px;
+    
+ }  
+h1{
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:32px;
+    
+}
+.s{
+   padding-top:30px;
+   padding-left: 0.5px;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    width: 85%;
+    margin:auto ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:20px;
+}
+.tt{
+    height: 200px;
+    width:calc(60% - 20%);
+    border-radius: 5px;
+    margin: 10px;
+    background-size:360px 200px;
+    background-repeat: no-repeat;
+    width: 400px;
+}
+.tt:hover{
+    transform: scale(1) rotate(2deg);
+}
+.tt1{
+    background-image: url(../img/images\ \(1\).jfif);
+   
+}
+.tt2{
+    background-image: url(../img/depositphotos_71506547-stock-photo-beautiful-ocean-surfing-wave.jpg);
+    
+}
+.tt3{background-image: url(../img/depositphotos_1094381-stock-photo-beautiful-beach-and-sea.jpg);
+   
+}
+.tt4{
+    background-image: url(../img/jpg_116.jpg);
+   
+}
+.tt5{
+    background-image: url(../img/3.jfif);
+   
+}
+.tt6{
+    background-image: url(../img/images.jfif);
+    }
+header{
+    height: 150px;
+    width: 1000px;
+    background-color: teal;
+    border-radius: 1rem;
+    border-style:solid;
+    padding: auto;
+    margin: auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style-type: none;
+}
+header{
+    margin-left: 20%;
+}
+main{
+    margin-left: 27%;
+}

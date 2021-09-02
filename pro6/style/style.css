@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body, main{
+    height: 100%;
+}
+header{
+    height: 100%;
+    background-color: #eeeff1;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: Roboto;
+}
+nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    font-family:  'Roboto', sans-serif;;
+    text-transform: uppercase;
+}
+.menu-item{
+    text-decoration: none;
+}
+.header-info{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.info-img{
+    width: 35%;
+    height: 45%;
+}
+.info-text{
+    width: 60%;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+h1{
+    font-size: 48px;
+}
+.header-info p{
+    font-size: 16px;
+    color: gray;
+    padding: 60px 0;
+}
+.header-info button{
+    background-color: blue;
+    padding: 25px 40px;
+    border: none;
+    color: cornsilk;
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
+.div-about {
+    height: 50%;
+    background: #E5E5E5;
+    padding: 5% 0;
+    text-align: center;
+}
+h2{
+    padding: 2% 0;
+}
+.div-about p{
+    width: 60%;
+    margin-left: 20%;
+}
+/*проекты*/
+.projects{
+    background-color: #34547A;
+    padding: 100px 0;
+}
+.projects-list{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.projects-items{
+    display: flex;
+}
+.projects-item img {
+    margin-right: 20px;
+}
+.projects-text{
+    color: #eeeff1;
+    margin-left: 8px;
+}
+/*мои навыки*/
+.my-skills{
+    height: 100%;
+    background-color:#E5E5E5;
+    display: flex;
+}
+.my-skills-wrapper{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.my-skills-img{
+    width: 50%;
+}
+.my-skills-img img{
+    width: 90%;
+    height: 85%;
+}
+.my-skills-text{
+    width: 50%;
+}
+.my-skill-container{
+    width: 80%;
+    background-color:#C4C4C4;
+}
+.my-skill-bar{
+    width: 80%;
+    height: 5px;
+    background-color: #34547A;
+}
+.my-skills-title{
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+.my-skills-item{
+    margin-bottom: 30px;
+}
+/*process*/
+.process{
+    width: 100%;
+    background-color: #EEEFF1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.process-text{
+    text-align: center;
+}
+.process-descr{
+    width: 50%;
+    margin: auto;
+}
+.process-video{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20%;
+}
+/*3*/
+.repit-photos{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-rep-photos{
+    background-image: url(../img/Rectangle\ 7.5.png);
+    flex-wrap:wrap ;
+    height: 50vh;
+    width: 25%;
+    background-size: cover;
+}
+.main-rep-photos1{
+    background-image: url(../img/Rectangle\ 7.2.png);
+    flex-wrap:wrap ;
+    height: 50vh;
+    width: 25%;
+    background-size: cover;
+}
+.item-hover{
+    background:linear-gradient(0deg, rgba(52, 84, 122, 0.8), rgba(52, 84, 122, 0.8)) ;
+    opacity: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item-hover:hover{
+    opacity: 1;
+}
+.microsoft{
+    height: 50%;
+    background: white;
+}
+.microsoft-img{
+    display: flex;
+    justify-content: center;
+}
+.microsoft-icon{
+    width: 255px;
+    height: 120px;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+/*4*/
+.form-wrapper{
+    height: 100%;
+    width: 100%;
+    background-color: #EEEFF1;
+}
+.form-text{
+   width: 60%;
+   margin: auto;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.form-title, .form-descr{
+    text-align: center;
+}
+input ,textarea{      
+    border: none;
+}
+.form-main{
+    display: flex;
+    justify-content: space-between;
+
+}
+input{
+    height: 50px;
+    width: 45%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+textarea{
+    padding: 15px;
+}
+.submit{
+    background-color: #34547A;
+    width: 30%;
+    padding: 0;
+    margin-top: 50px;
+    color: white;
+    text-transform: uppercase;
+}
+
+

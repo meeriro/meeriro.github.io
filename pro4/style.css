@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -53,4 +54,61 @@ a:active{
 }
 a:visited{
     color: rgb(175, 22, 175);
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 95%;
+    background-color: #eee;
+    margin: 20px auto;
+    border-radius: 8px;
+    padding: 30px 25px 15px;
+}
+h1,p {
+    text-align: center;
+}
+h1{
+    font-size:48px ;
+}
+p{
+    font-size: 20px;
+    margin: 10px 0 10px;
+}
+.photo{
+    background-color: white;
+    padding: 20px 0;
+}
+img{
+    display: block;
+    margin:auto ;
+}
+.timeline{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    padding: 35px 0;
+}
+ul{
+    font-size: 22px;
+}
+li{
+    margin-bottom: 20px;
+}
+.more-info{
+    font-size: 24px;
+}
+a{
+    text-decoration: none;
+}
+a:active{
+    font-size: 28px;
+}
+a:visited{
+    color: rgb(175, 22, 175);
+>>>>>>> 4b00cd3 (lesson28)
 }

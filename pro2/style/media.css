@@ -1,0 +1,23 @@
+@media (max-width:992px){
+.tt {
+    height: 159px;
+}
+}
+@media (max-width:768px) {
+    .tt{
+        height: 120px;
+        width:calc(100% - 20%);
+    }
+}
+@media (max-width:768px) {
+    h1{
+        font-size:28px;
+    
+    }
+    
+}
+@media(max-width:760px){
+    header{
+        background-color: blueviolet;
+    }
+}

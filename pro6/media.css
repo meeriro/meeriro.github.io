@@ -1,0 +1,47 @@
+@media(max-width:480px){
+    .header-info{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .info-img{
+        width: 240px;
+        height: 150px;
+    }
+    .info-text p{
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .div-abtou h2 {
+        text-align: center;
+        justify-content: center;
+    }
+    .div-abtou p{
+        font-size: 14px;
+        width: 240px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .projects-list{
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .projects-text{
+        font-size: 20px;
+    }
+    .projects-items img{
+        width: 40px;
+        height: 45px;
+    }
+    button{
+        height: 80px;
+        padding: 15px 30px;
+    }
+}

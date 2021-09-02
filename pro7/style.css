@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body, main, section{
+    width: 100%;
+    height: 100%;
+}
+header{
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+}
+.sendpay-div{
+    padding-bottom:8%;
+    margin-left: 5%;
+    display: flex;
+}
+.sendpay{
+    width: 50%;
+    margin: auto;
+}
+.form-sing{
+    padding: 1%;
+}
+.div-sing{
+    height: 100%;
+    margin-left: 15%;
+}
+input {
+    width: 25%;
+    height: 27%;
+    text-align: center;
+    justify-content: space-between;
+}
+.email{
+    background-color:#6C63FF;
+    margin-left: 3%;
+}
+/*header*/
+.first{
+    display: flex;
+}
+.div-tex{
+    flex-wrap: wrap;
+    width: 40%;
+    margin-left: 7%;
+}
+h1{
+    font-family:Montserrat;
+    font-weight: 600;
+    font-size: 44px;
+}
+hr{
+    width: 10%;
+    margin-top:3%;
+    margin-top: 5%;
+}
+p{
+    width: 60%;
+    margin-top:3%;
+    color: gray;
+}
+.div-learn{
+    margin-top: 4%;
+    width: 80%;
+    height: 44%;
+}
+.input1{
+    background-color:#6C63FF;
+}
+.input2{
+    margin-left: 2%;
+}
+.phoneboy{
+    width: 400px;
+    height: 320px;
+    margin-left: 35%;
+}
+/*2*/
+.how-works{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+h2{
+    font-size: 44px;
+    font-weight: 600;
+}
+.line{
+    border: 3px solid #B7B3B3;
+    width: 50px;
+    margin-top: 2%;
+    margin-bottom: -2%;
+}
+.how-works-descr{
+    font-size: 25px;
+    font-weight: 600;
+    opacity: 0.6;
+    width: 46%;
+    text-align: center;
+}
+.item{
+    width: 150%;
+}
+.item-descr{
+    width: 150%;
+    text-align: center;
+}
+h5{
+    margin-left: 30%;
+}
+/*owlcarousel*/
+.how-works-carousel{
+    width: 150%;
+    margin: auto;
+}
+
+.owl-carousel .item{
+    width: 50%;
+    margin-left: 1%;
+}
+.owl-carousel img{
+    margin-bottom:10px;
+}
+.owl-prev, .owl-next{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 40%;
+    background: #F1F1F1 !important;
+    border-radius: 50% !important;
+}
+.owl-prev{
+    left: 0;
+}
+.owl-next{
+    right: 0;
+}
+/*3*/
+.real-time{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.boy{
+    width: 50%;
+    
+}
+.boy-text{
+    width: 50%;
+    padding-top: 16%;
+    margin-left: 10%;
+}
+.boy-img{
+    width: 90%;
+    height: 70%;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+h4{
+    font-size: 40px;
+}
+.boy p{
+    font-size: 20px;
+}
+.hr{
+    margin-top: 1%;
+}
+/*4*/
+.we-are{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image:url(./e5127cae-00a8-4400-9fee-c54db74b23ce.jfif);
+    background-size: cover;
+}
+.service{
+    position: absolute;
+    width:70%;
+    height: 10%;
+    display: flex;
+    margin-top: 5%;
+    margin-left: 26%;
+}
+h4{
+    font-size: 44px;
+}
+.sen{
+    width: 119px;
+    height: 30px;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.e{
+    margin-top: 3%;
+    margin-left: 2%;
+    width: 50px;
+    height:50px ;
+}
+.hr-lorem{
+    position: absolute;
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 35%;
+}
+.hr-lorem hr{
+    margin-left: 10%;
+    width: 20%;
+    margin-top: 3%;
+}
+.bank1{
+    margin-top: 20%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+}
+.icon{
+    width: 90%;
+    height: 70%;
+}
+.bank{
+    margin-bottom: 4%;
+}
+.fast{
+    margin-bottom: 4%;
+}
+/*5*/
+.about-us{
+    height: 50%;
+    background-color: #6C63FF;
+    display: flex;
+    
+
+}
+.about-us-text{
+    padding-left: 10%;
+    padding-top: 2%;
+    width: 40%;
+}
+h3{
+    
+    font-size: 45px;
+    color: white;
+    font-style: italic;
+    font-weight: lighter;
+}
+.about-us-line{
+    width: 50%;
+    opacity: 0.8;
+    border: 2px solid #ffffff;
+}
+.about-us-descr{
+    color: white;
+    font-size:22px;
+}
+.owl-theme{
+    width: 50%;
+    margin-left: 22%;
+    margin-right: 2%;
+    list-style-type: none;
+}
+
+.about-us-item{
+    background-color: white;
+    border-radius: 5px;
+    width: 250px;
+    height: 220px;
+    box-sizing: border-box;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+.review-user{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.user-img{
+    width: 5px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 1%;
+    margin-left: 8%;
+}
+.item-review{
+    font-size: 13px;
+    color: black;
+    width: 70%;
+    height: 40%;
+    margin-left:25px;
+    margin-top: 8px;
+}
+.user-name{
+    font-size: 22px;
+    color: black;
+    margin-top: 1%;
+    margin-left: 6%;
+
+}
+.user-prof{
+    font-size: 13px;
+    width: 100%;
+    margin-top: 1%;
+    margin-top: 1%;
+}
+.u-i-n{
+    display:flex;
+    flex-wrap: wrap;
+    width: 30%;
+    height: 50%;
+
+}
+.u-s-n{
+    height: 5%;
+}

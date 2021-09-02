@@ -1,0 +1,29 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100px;
+}
+header{
+    position: sticky;
+    width: 100%;
+    max-width: 1190px;
+    background-color: black;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+ul>li{
+    padding: 40px;
+    list-style-type: none;
+}
+li>a:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
